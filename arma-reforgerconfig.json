@@ -56,6 +56,20 @@
         "EnumValues":{}
     },
     {
+        "DisplayName":"RCON Port",
+        "Category":"Arma Reforger:stadia_controller",
+        "Subcategory":"Server:dns:1",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"$RCONPort",
+        "InputType":"text",
+        "IsFlagArgument":false,
+        "Hidden":true,
+        "ParamFieldName":"rconPort",
+        "IncludeInCommandLine":false,
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Public IP Binding",
         "Category":"Arma Reforger:stadia_controller",
         "Subcategory":"Server:dns:1",
@@ -233,7 +247,7 @@
         "Subcategory":"Server:dns:1",
         "Description":"See the Security and Privacy menu for configurable options for the server's BattlEye RCON",
         "Keywords":"rcon,password",
-        "FieldName":"RCONPassword",
+        "FieldName":"$RemoteAdminPassword",
         "InputType":"hidden",
         "ParamFieldName":"RCONPassword",
         "EnumValues":{}
