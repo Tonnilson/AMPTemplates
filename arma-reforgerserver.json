@@ -1,3 +1,4 @@
+
 {
     "bindAddress":"{{bindAddress}}",
     "bindPort":{{bindPort}},
@@ -6,6 +7,14 @@
     "a2s":{
         "address":"{{a2s.address}}",
         "port":{{a2s.port}}
+    },
+    "rcon": {
+        "address": "{{bindAddress}}",
+        "port": {{rconPort}},
+        "password": "{{RCONPassword}}",
+        "permission": "admin",
+        "blacklist": [],
+        "whitelist": []
     },
     "game":{
         "name":"{{game.name}}",
@@ -37,6 +46,7 @@
     "operating":{
         "lobbyPlayerSynchronise":{{operating.lobbyPlayerSynchronise}},
         "disableCrashReporter":{{operating.disableCrashReporter}},
+        {{operating.disableNavmeshStreaming}}
         "playerSaveTime":{{operating.playerSaveTime}},
         "aiLimit":{{operating.aiLimit}},
         "slotReservationTimeout":{{operating.slotReservationTimeout}}
